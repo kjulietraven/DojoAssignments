@@ -1,0 +1,70 @@
+Kathleens-MacBook-Air:~ kathleenraven$ cd Desktop
+Kathleens-MacBook-Air:Desktop kathleenraven$ mkdir gittest
+Kathleens-MacBook-Air:Desktop kathleenraven$ cd gittest
+Kathleens-MacBook-Air:gittest kathleenraven$ git init
+Initialized empty Git repository in /Users/kathleenraven/Desktop/gittest/.git/
+Kathleens-MacBook-Air:gittest kathleenraven$ touch index.html
+Kathleens-MacBook-Air:gittest kathleenraven$ touch style.css
+Kathleens-MacBook-Air:gittest kathleenraven$ touch aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "added 3 files"
+On branch master
+
+Initial commit
+
+Untracked files:
+	aboutMe.txt
+	index.html
+	style.css
+
+nothing added to commit but untracked files present
+Kathleens-MacBook-Air:gittest kathleenraven$ git add aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git add index.html
+Kathleens-MacBook-Air:gittest kathleenraven$ git add style.css
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "3 files added"
+[master (root-commit) 6ea90e4] 3 files added
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 style.css
+Kathleens-MacBook-Air:gittest kathleenraven$ vi aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "updated aboutMe"
+On branch master
+Changes not staged for commit:
+	modified:   aboutMe.txt
+
+no changes added to commit
+Kathleens-MacBook-Air:gittest kathleenraven$ git add aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "updated aboutMe"
+[master 87c255d] updated aboutMe
+ 1 file changed, 2 insertions(+)
+Kathleens-MacBook-Air:gittest kathleenraven$ vi aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git add aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "added favorite movie to aboutMe"
+[master 1f5231a] added favorite movie to aboutMe
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Kathleens-MacBook-Air:gittest kathleenraven$ git log
+commit 1f5231a87a1c24120ee6419a4b69a71685a76e22
+Author: Kathleen <kathleenjraven@gmail.com>
+Date:   Mon Mar 20 17:10:21 2017 -0500
+
+    added favorite movie to aboutMe
+
+commit 87c255d4aebe97db37fcd1f29d76a49a07ff567f
+Author: Kathleen <kathleenjraven@gmail.com>
+Date:   Mon Mar 20 16:59:11 2017 -0500
+
+    updated aboutMe
+
+commit 6ea90e43f4a8c89fb42e5433d0360f6a20b1f259
+Author: Kathleen <kathleenjraven@gmail.com>
+Date:   Mon Mar 20 16:52:01 2017 -0500
+
+    3 files added
+Kathleens-MacBook-Air:gittest kathleenraven$ git revert 1f5231a
+[master 5d8c554] Revert "added favorite movie to aboutMe"
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Kathleens-MacBook-Air:gittest kathleenraven$ vi aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git add aboutMe.txt
+Kathleens-MacBook-Air:gittest kathleenraven$ git commit -m "added favorite book to aboutMe"
+[master babc70f] added favorite book to aboutMe
+ 1 file changed, 1 insertion(+), 1 deletion(-)
