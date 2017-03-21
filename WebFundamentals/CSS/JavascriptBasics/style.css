@@ -1,0 +1,99 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+a {
+    color:lightskyblue;
+}
+
+#wrapper{
+    width: 970px;
+    background-color: darkblue;
+    margin: 0px auto;
+    padding: 15px;
+}
+#header{
+    height: 25px;
+    background-color: red;
+    margin: 0px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.headertext{
+    font-family: 'Times New Roman', Times, serif;
+    color: lightblue;
+    font-size: 20pt;
+}
+
+#navigation{
+    height: 180px;
+    width: 120px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    vertical-align: top;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.navtext{
+font-family: 'Times New Roman', Times, serif;
+color: lightblue;
+font-size: 9pt;
+}
+
+#list2
+{
+ padding-left: 15px;
+}
+
+#list3{
+    padding: 15px;
+}
+
+#main_content{
+    height: 400px;
+    width: 765px;
+    background-color: black;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 20px;
+    vertical-align: top;
+    border-radius: 15px;
+}
+
+*.subcontents{
+    font-family: 'Times New Roman', Times, serif;
+    color: lightblue;
+    font-size: 12pt;
+    text-align: left;
+}
+
+*.subcontents2{
+    font-family: 'Times New Roman', Times, serif;
+    color: lightblue;
+    font-size: 9pt;
+    text-align: left;
+    padding-top: 15px;
+}
+
+#footer{
+height: 20px;
+width: 920px;
+background-color: gray;
+display: inline-block;
+border-radius: 15px;
+margin: 10px 15px;
+padding: 15px;
+}
+
+.footertext{
+font-family: 'Times New Roman', Times, serif;
+color: lightblue;
+font-size: 9pt;
+}
