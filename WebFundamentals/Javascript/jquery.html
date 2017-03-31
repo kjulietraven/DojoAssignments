@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery Functions Assignment</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('button.red').click(function(){
+                $('#red').css('background-color', 'red');
+            });
+
+            $('#slide').hide(function(){
+            });
+
+            $('button.slide').click(function(){
+                $('#slide').slideToggle(function(){
+                });     
+            });
+
+            $('button.append').click(function(){
+                $('#append').append('<p>NEW PARAGRAPH!</p>');
+            });
+        
+
+            $('#fadeIn').hide(function(){
+            });
+
+            $('button.fadeIn').click(function(){
+                $('#fadeIn').fadeIn(function(){
+                });
+            });
+          });
+         
+    </script>
+</head>
+<body>
+    <h2>AddClass</h2>
+    <p id="red">Click the button to add class "red" to this paragraph.</p>
+    <button class="red">AddClass</button>
+
+    <hr>
+
+    <h2>SlideToggle</h2>
+    <p>Click the button to slidetoggle a hidden image</p>
+    <button class="slide">Slidetoggle</button>
+    <img id="slide" src="content_icon_copy.png">
+    
+    <hr>
+
+    <h2>Append</h2>
+    <p id="append">Click the button to append a new paragraph</p>
+    <button class="append">Append</button>
+
+   <hr>
+
+    <h2>FadeIn</h2>
+    <p>Click the button to fade in an image.</p>
+    <button class="fadeIn">Fade In</button>
+    <img id='fadeIn' src="content_icon_copy.png">
+
+
+</body>
+</html>
+
+ <!–– 
+.show
+.toggle
+.slideDown
+.slideUp
+.fadeOut
+.addClass
+.before
+.after
+.html
+.attr
+.val
+.text
+.data -->

@@ -1,0 +1,162 @@
+#wrapper{
+    width: 970px;
+    background-color: white;
+    padding: 2px;
+}
+
+#maincontent{
+        width: 970px;
+        height: 575px;
+        background-color: #174f78;
+        display: inline-block;
+        margin-bottom: 20px;
+}
+
+#logo{
+    margin: 20px;
+    display: inline-block;
+}
+
+img[src="python.png"]{
+    width: 40%;
+    margin-right: 280px;
+} 
+
+#smalltext{
+    font-size: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#smalltext a{
+    color: yellow;
+}
+
+#searchbox{
+        width: 260px;
+        height: 50px;
+        background-color: darkslategray;
+        border-radius: 7px;      
+        box-shadow: 3px 3px black;
+}
+
+input[type=text] {
+        width: 150px;
+        height: 25px;
+        margin-left: 30px;
+}
+
+input[type=button] {
+        margin: 10px;
+        padding: 7px;
+        border: 1px solid lightgrey;
+        background-color: #174f78;
+        border-radius: 7px;      
+        color: white;
+}
+
+#navbar{
+        width: 840px;
+        height: 30px;
+        background-color: #397caf;
+        border-radius: 7px;      
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15pt;  
+        text-align: center;
+        padding-top: 10px;
+        word-spacing: 40px;
+        margin-left: 80px;
+        box-shadow: 3px 3px black;
+}
+
+#linklist{
+        width: 200px;
+        height: 140px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;  
+        text-align: center;
+        display: inline-block;
+        margin-left: 70px;
+}
+
+#linklist a{
+    color: white;
+}
+
+#about{
+    width: 600px;
+    height: 50px;
+    font-size: 10pt;  
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 29px;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+#zen{
+    width: 300px;
+    height: 200px;
+    font-size: 12pt;  
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 440px;
+    text-align: center;
+    display: block;
+}
+
+.list{
+    width: 300px;
+    height: 160px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 118px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    vertical-align: top;
+    text-align: justify;
+}
+
+.list li{
+    color: #5595c7;
+}
+
+h3{
+    text-align: center;
+}
+
+hr { 
+    display: block;
+    border-width: 2px;
+    border-color: #5595c7;
+}
+
+#footer{
+    width: 970px;
+    height: 100px;
+    background-color: #174f78;
+    display: inline-block;
+}
+
+#footerlinks{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: #5595c7;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+#copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: #5595c7;
+    text-align: center;
+    padding-top: 20px;
+}

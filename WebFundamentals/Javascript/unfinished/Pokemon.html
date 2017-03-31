@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+             $.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
+                    console.log(res);
+                }, "json");
+            })
+
+            $.get("http://pokeapi.co/api/v1/pokemon/1/", function(res) {
+             console.log(res.types[0].name);
+            console.log(res.types[1].name);
+                }, "json");
+
+      </script>      
+</head>
+<body>
+    
+   <div id="bulbasaur">
+        </div>
+
+</body>
+</html>

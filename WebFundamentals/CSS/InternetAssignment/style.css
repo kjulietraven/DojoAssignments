@@ -1,0 +1,151 @@
+#wrapper{
+    width: 970px;
+    background-color: white;
+    padding: 0px;
+}
+img[src="globe.png"]{
+    width: 8%;
+}
+
+#logotext{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    font-size: 30pt;
+}
+
+#logotext span{
+    color: #3477aa;
+}
+
+#wwwheader{
+    width: 950px;
+    height: 30px;
+    background-color: #3477aa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding: 10px;
+    color: white;
+    margin: 1px;
+}
+
+#maincontent{
+    width: 700px;
+    height: 350px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img[src="home.png"]{
+    width: 5%;
+}
+
+#dnsbox{
+    display: inline-block;
+    font-weight: bold;
+    color: darkturquoise;
+    vertical-align: top;
+}
+
+#contact{
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    font-size: 7pt;
+}
+
+img[src="phone.png"]{
+    width: 5%;
+    display: inline-block;
+    margin-left: 170px;
+    
+}
+
+#phone{
+    color: #00c2e3;
+    font-size: 15pt;
+    font-weight: bold;
+    
+}
+
+#subcontent{
+    width: 650px;
+    height: 125px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid darkturquoise;
+}
+
+img[src="html.png"]{
+    width: 15%;
+}
+
+h3{
+    color: #3477aa;
+}
+
+img[src="client_server.jpg"]{
+    width: 30%;
+    margin-left: 210px;
+}
+
+#sidebar{
+    width: 180px;
+    height: 700px;
+    background-color: white;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.button {
+    border-radius: 7px;      
+    color: white;
+    padding: 5px;
+    width: 150px;
+}
+
+#button1 {
+    background-color: #3477aa;
+    margin-bottom: 2px;
+}
+
+#button2 {
+    background-color: orange;
+}
+
+#button3 {
+    background-color: turquoise;
+}
+
+#ad{
+    width: 160px;
+    height: 250px;
+    display: inline-block;
+    color: white;
+    background-image: url("ad_background.png");
+    font-size: 13pt;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+img[src="ninja.png"]{
+    width: 40%;
+}
+
+#big3{
+    display: inline-block;
+    width: 500px;
+}
+
+span{
+    color: darkturquoise;
+}
