@@ -1,0 +1,30 @@
+1. pip install Django
+“Successfully installed Django-1.10.6”
+
+2. pip list
+Lists what version is installed:
+Django (1.10.6)
+pip (9.0.1)
+setuptools (32.1.0)
+wheel (0.29.0)
+
+3. pip install Django (again)
+“Requirement already satisfied: Django in /usr/local/lib/python2.7/site-packages” 
+Shows the file path for where it’s installed.
+
+4. pip freeze
+Lists the version?
+Django==1.10.6
+
+5. pip freeze > requirements.txt
+This creates a requirements file which lists all of the installed versions
+
+6. pip uninstall Django
+This lists what will uninstall and asks for confirmation, so I clicked “yes”
+Successfully uninstalled Django-1.10.6
+
+7. pip show Django
+It is no longer installed.
+
+8. pip search Flask
+Returns search results for “Flask”

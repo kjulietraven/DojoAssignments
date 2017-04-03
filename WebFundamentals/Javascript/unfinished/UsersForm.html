@@ -9,23 +9,29 @@
     <script type="text/javascript">
         $(document).ready(function(){
         
-            $('button').click(function(){
-                    $('table').append('<tr><td>hello</td></tr>');
-            });
+        $('button').click(function(){ 
+            $('#table1').append('<tr><td><input type="text" name="firstname"></td><td><input type="text" name="lastname"></td><td><input type="text" name="email"></td><td><input type="text" name="number"></td></tr>');
             
+            }); 
 
+       
+            $(document).on('click', function(){
+            });
+       
 
         });
         </script>
 </head>
 <body>
-    <table border="1">
+    <table id="table1" border="1">
+        <tbody>
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email Address</th>
             <th>Contact #</th>
         </tr>
+        </tbody>
     </table>
 
 <p><h1>Add User</h1></p>
